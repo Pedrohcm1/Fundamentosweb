@@ -1,49 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    
-    <ul>    
-        <li>
-            
-            <a href="index.html">Home</a>
-           <a href="Skins.html">Skins</a>
-            <a href="Habilidades.html">Habilidades</a>
-            <a href="Contato.html">Contato</a>
-    
-        </li>
-    </ul>
+
+<ul id="menu">    
+    <li><a href="index.html">Home</a></li>
+    <li><a href="skins.html">Skins</a></li>
+    <li><a href="habilidades.html">Habilidades</a></li>
+    <li><a href="contato.html">Contato</a></li>
+</ul>
+<hr>
   
-    <h1>Entre em Contato comigo</h1>
+    <h1 class="center">Entre em Contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome</label><br>
-        <input type="text" id="nome">
-    <br>
-    <br>
-        <label for="email">E-mail</label><br>
-        <input type="email" id="email">
-    <br>
-    <br>
-        <label for="assunto">Assunto</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-    <br>
-    <br>
-        <button>Enviar</button>
-    </form>
 
-    <p>Centro</p>
+    <div class="container p-30">
+        <div class="ml-50">
+            <form>
+                <label for="nome">Nome</label><br>
+                <input type="text" id="nome">
+            <br>
+            <br>
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email">
+            <br>
+            <br>
+                <label for="assunto">Assunto</label><br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+            <br>
+            <br>
+                <button>Enviar</button>
+            </form>
+        </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110468.11519949535!2d-46.69612329020451!3d-23.553972701183916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f8c61020205%3A0x9ae474c606fef4!2sMercado%20Municipal%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1690382641186!5m2!1spt-BR!2sbr" 
-    width="400" 
-    height="300" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
-</body>
-</html>
+        <div>
+            <p>Centro</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110468.11519949535!2d-46.69612329020451!3d-23.553972701183916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f8c61020205%3A0x9ae474c606fef4!2sMercado%20Municipal%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1690382641186!5m2!1spt-BR!2sbr" 
+            width="400" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/Pedrohcm1" target="_blank"><img class="tm-social p-30" src="assets/Imagens/github.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/pedro-costa-magalh%C3%A3es-8ba4a2179/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BYQlX8RAARZ%2BtaLNraG4iPw%3D%3D" target="_blank"><img class="tm-social p-30" src="assets/Imagens/linkedin.png" alt="linkedin"></a>
+        </div>
+        
+        <p class="center">
+            Todos os direitos reservados: Pedro Henrique Costa &copy;
+        </p>
+    </footer>
+    
+    </body>
+    </html>
